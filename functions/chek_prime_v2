@@ -1,0 +1,12 @@
+def check_prime():
+    a = 13
+    for i in range(2,541):
+         if a % i == 0:
+             return "Not prime"
+        
+    else:
+        return "Prime"
+
+
+out = check_prime()
+print(out)

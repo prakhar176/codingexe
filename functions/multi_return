@@ -1,0 +1,5 @@
+def myfunc():
+    return 'I am bing returned','i also','mee too'
+myfunc()
+a,b,c = myfunc()
+print(a)
